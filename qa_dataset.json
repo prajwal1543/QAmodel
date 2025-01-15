@@ -1,0 +1,70 @@
+[
+    {
+        "question": "What is protein synthesis?",
+        "answer": "Protein synthesis is the process by which cells generate new proteins."
+    },
+    {
+        "question": "What are the stages of protein synthesis?",
+        "answer": "The two stages are transcription and translation."
+    },
+    {
+        "question": "Why are mitochondria called the powerhouse of the cell?",
+        "answer": "Mitochondria generate ATP, the energy currency of the cell, through oxidative phosphorylation."
+    },
+    {
+        "question": "What is the role of helicase in DNA replication?",
+        "answer": "Helicase unwinds the DNA helix during DNA replication."
+    },
+    {
+        "question": "How does the immune system protect the body from pathogens?",
+        "answer": "The immune system protects the body through innate and adaptive immunity. Innate immunity provides an immediate response, while adaptive immunity involves T-cells and B-cells."
+    },
+    {
+        "question": "What is the function of ribosomes?",
+        "answer": "Ribosomes are responsible for protein synthesis by translating messenger RNA (mRNA) into a polypeptide chain."
+    },
+    {
+        "question": "What is DNA replication?",
+        "answer": "DNA replication is the process by which a cell makes an identical copy of its DNA before cell division."
+    },
+    {
+        "question": "What are enzymes and what do they do?",
+        "answer": "Enzymes are biological catalysts that speed up chemical reactions. For example, amylase breaks down starch into sugars."
+    },
+    {
+        "question": "What is the role of DNA polymerase in DNA replication?",
+        "answer": "DNA polymerase adds nucleotides to the growing DNA strand during replication, ensuring accuracy."
+    },
+    {
+        "question": "What is the significance of the Golgi apparatus?",
+        "answer": "The Golgi apparatus modifies, sorts, and packages proteins and lipids for storage or transport out of the cell."
+    },
+    {
+        "question": "What is cellular respiration?",
+        "answer": "Cellular respiration is the process by which cells convert glucose and oxygen into ATP, carbon dioxide, and water."
+    },
+    {
+        "question": "What is the function of chloroplasts?",
+        "answer": "Chloroplasts are the sites of photosynthesis in plant cells, converting light energy into chemical energy."
+    },
+    {
+        "question": "What is a gene?",
+        "answer": "A gene is a segment of DNA that codes for a specific protein or function."
+    },
+    {
+        "question": "What is the function of mitochondria?",
+        "answer": "Mitochondria generate energy for the cell by producing ATP through oxidative phosphorylation."
+    },
+    {
+        "question": "What are the three main components of the cell cycle?",
+        "answer": "The three main components of the cell cycle are interphase, mitosis, and cytokinesis."
+    },
+    {
+        "question": "What is the purpose of meiosis?",
+        "answer": "Meiosis is a type of cell division that reduces the chromosome number by half, producing four genetically diverse gametes."
+    },
+    {
+        "question": "What is the central dogma of molecular biology?",
+        "answer": "The central dogma describes the flow of genetic information from DNA to RNA to protein."
+    }
+]
