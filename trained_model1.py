@@ -1,9 +1,7 @@
-from flask import Flask, request, jsonify
+import streamlit as st
 import json
 from transformers import pipeline
 from difflib import get_close_matches
-
-app = Flask(__name__)
 
 # Load the dataset
 with open("qa_dataset.json", "r") as file:
@@ -24,12 +22,18 @@ def get_answer(user_question, qa_data, qa_model):
     else:
         return "Sorry, I couldn't find an answer to your question."
 
-@app.route('/ask', methods=['POST'])
-def ask_question():
-    data = request.get_json()
-    question = data.get('question', '')
-    answer = get_answer(question, qa_data, qa_model)
-    return jsonify({'answer': answer})
+# Streamlit UI
+st.title("AI-Powered Question Answering System")
+st.subheader("Ask me any question!")
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# Input field for user question
+user_question = st.text_input("Enter your question here:")
+
+if st.button("Get Answer"):
+    if user_question.strip():
+        with st.spinner("Thinking..."):
+            answer = get_answer(user_question, qa_data, qa_model)
+        st.success("Answer:")
+        st.write(answer)
+    else:
+        st.error("Please enter a valid question!")
